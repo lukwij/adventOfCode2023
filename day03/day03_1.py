@@ -44,5 +44,5 @@ def get_positions_to_check(x_pos, span):
 
 
 if __name__ == "__main__":
-    numbers, symbols = get_numbers_and_symbols('input')
-    print(find_engine_parts(numbers, symbols))
+    read_numbers, read_symbols = get_numbers_and_symbols('input')
+    print(find_engine_parts(read_numbers, read_symbols))

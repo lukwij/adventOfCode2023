@@ -14,7 +14,6 @@ def check_games(input_data: dict) -> int:
                     min_game_cubes[color] = pick[color]
         game_score = prod(min_game_cubes.values())
         result += game_score
-        min_game_cubes = {'red': 0, 'green': 0, 'blue': 0}
     return result
 
 
