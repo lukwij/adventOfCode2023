@@ -36,5 +36,5 @@ def count_card(cards: list) -> int:
 
 
 if __name__ == "__main__":
-    cards = get_scratch_cards('input')
-    print(count_card(check_cards(cards)))
+    found_cards = get_scratch_cards('input')
+    print(count_card(check_cards(found_cards)))
